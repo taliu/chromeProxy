@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<style>
+		body {
+			width: 320px;
+		}
+		 
+		</style>
+	</head>
+	<body>
+	   <p>
+	   <label>连接方式：</label>
+	   <select id="option">
+		<option value="1">直接连接</option>
+		<option value="2">使用代理连接</option>
+	   </select>
+	   </p>
+	   <p id="proxySetting">
+		<label>地址：</label><input type="text" id="host" value="127.0.0.1"/>
+		<br/>
+		<label>端口：</label><input type="text" id="port" value="8899"/>
+	   </p>	
+	   <p>
+		<button id="saveBtn">保存</button>
+	   </p>
+	</body>
+<script src="jquery-2.0.0.min.js" type="text/javascript"></script>
+<script src="popup.js" type="text/javascript"></script>
+
+</html>
