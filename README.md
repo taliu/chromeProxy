@@ -1,7 +1,7 @@
 chromeProxy
 ===========
 
-chrome浏览器的web代理设置
+chromeProxy是一个简单的chrome浏览器的web代理设置插件
 
 ## 功能
 1. 设置直接连接
@@ -9,4 +9,4 @@ chrome浏览器的web代理设置
 
 
 ## 注意
-本代理是web带且只支持http， 不支持https和sockets
+本代理是web代理且只支持http， 不支持https和sockets
